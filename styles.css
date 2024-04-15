@@ -1,0 +1,208 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 10px 140px 36px 140px;
+}
+
+.header_logo {
+  width: 68px;
+  height: 68px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header_links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  font-size: 18px;
+}
+
+nav {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.info {
+  display: flex;
+  background-color: #1f2937;
+  padding: 0 140px 36px 139px;
+  align-items: center;
+  gap: 20px;
+}
+
+.info_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.info_text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.info_btn {
+  border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  width: 140px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.info_image {
+  display: flex;
+}
+
+.info_img {
+  width: 350px;
+  height: 100%;
+}
+
+.popular_version {
+  padding: 30px 140px 36px 139px;
+}
+
+.popular_version-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+.version_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 205px;
+}
+
+.img_card {
+  width: 100%;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.img_description {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.android_quote {
+  background-color: #e5e7eb;
+  padding: 36px 140px 36px 140px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+.quote p::before {
+  content: "\201C";
+}
+
+.quote p::after {
+  content: "\201D";
+}
+
+.quote_author {
+  font-size: 18px;
+  font-weight: 800;
+  display: block;
+  text-align: end;
+}
+
+.android_dev_website {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.android_dev_content {
+  background-color: #3882f6;
+  display: flex;
+  padding: 36px 140px 36px 140px;
+  gap: 70px;
+}
+
+.android_dev_website-title {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.android_dev_website-text {
+  color: #f9faf8;
+}
+
+.dev_btn {
+  width: 140px;
+  height: 35px;
+  border: 2px solid #e5e7eb;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 18px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
